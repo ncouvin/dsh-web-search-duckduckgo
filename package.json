@@ -1,0 +1,43 @@
+{
+  "name": "dsh-web-search-duckduckgo",
+  "version": "1.0.0",
+  "description": "Free, zero-config DuckDuckGo web search provider plugin for DeepSeek Harness (ctx.web)",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "duckduckgo",
+    "web-search",
+    "ollama",
+    "local-llm",
+    "qwen",
+    "cordis",
+    "ai-agent"
+  ],
+  "homepage": "https://github.com/ncouvin/dsh-web-search-duckduckgo#readme",
+  "bugs": {
+    "url": "https://github.com/ncouvin/dsh-web-search-duckduckgo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncouvin/dsh-web-search-duckduckgo.git"
+  },
+  "author": "ncouvin",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-web": "*"
+  }
+}
