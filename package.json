@@ -1,6 +1,6 @@
 {
   "name": "dsh-web-search-duckduckgo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Free, zero-config DuckDuckGo web search provider plugin for DeepSeek Harness (ctx.web)",
   "keywords": [
     "deepseek",

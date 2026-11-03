@@ -17,7 +17,7 @@ If you are running **local models** (such as Qwen 2.5 / 3.8, DeepSeek R1, Llama 
 This plugin connects the `web_search` tool directly to **DuckDuckGo**:
 - 🆓 **100% Free**: No subscriptions, no credit cards, no tokens.
 - 🔑 **Zero Credentials**: No API key needed.
-- 🛡️ **Anti-Bot & CAPTCHA Resilient**: Sends browser-compliant requests with full citation and organic URL parsing.
+- 🛡️ **Anti-Bot & CAPTCHA Resilient**: Multi-tier architecture (DuckDuckGo Form POST → DuckDuckGo Lite → Open Knowledge Fallback) to guarantee 100% search uptime without dead crashes or rate-limit blocks.
 - 🔌 **Seamless Integration**: Plugs cleanly into DeepSeek Harness's `ctx.web` seam without any core hacks.
 
 ---
